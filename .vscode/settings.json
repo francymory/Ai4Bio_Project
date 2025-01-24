@@ -1,0 +1,9 @@
+{
+  
+  "terminal.integrated.automationProfile.linux": { "path": "/homes/fmorandi/ai4bio_project/bash.sh" },
+  
+  "python.analysis.extraPaths": [
+    "/homes/fmorandi/ai4bio_project/CONCH"
+  ]
+
+}
