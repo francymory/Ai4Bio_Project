@@ -12,9 +12,9 @@ Explainability of CONCH model for zero-shot classification of histopathological 
      
   2. To start the Unimore GPU with a Jupyter notebook:
      
-     execute *./start_jupyter.sh* and copy the URL link.
+     -execute *./start_jupyter.sh* and copy the URL link.
 
-     On the notebook press *select kernel* and select an existing jupyter notebook, past the link and choose a Python kernel. 
+     -on the notebook press *select kernel* and select an existing jupyter notebook, past the link and choose a Python kernel. 
 
   3. Add the CONCH directory and create a conda environment with all the necessary requirements:
     
