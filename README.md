@@ -12,9 +12,11 @@ Explainability of CONCH model for zero-shot classification of histopathological 
 ```bash
 git clone https://github.com/mahmoodlab/CONCH.git
 cd CONCH
+```
 
 ```bash
 conda create -n conch python=3.10 -y
 conda activate conch
 pip install --upgrade pip
 pip install -e .
+```
