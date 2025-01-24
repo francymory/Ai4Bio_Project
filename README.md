@@ -1,4 +1,4 @@
-# Ai4Bio_Project
+ # Ai4Bio_Project
 
 Project for the course of AI for Bioinformatics.
 Explainability of CONCH model for zero-shot classification of histopathological images.
@@ -9,11 +9,11 @@ Explainability of CONCH model for zero-shot classification of histopathological 
 
   2. Add the CONCH directory and create a conda environment with all the necessary requirements:
     
- '''bash
+```bash
 git clone https://github.com/mahmoodlab/CONCH.git
 cd CONCH
 
-'''bash
+```bash
 conda create -n conch python=3.10 -y
 conda activate conch
 pip install --upgrade pip
