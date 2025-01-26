@@ -6,9 +6,10 @@ Explainability of CONCH model for zero-shot classification of histopathological 
 # Manual:
 
   1. Make sure that the files to request the GPUs from the Unimore server have all the necessary permits to be executed:
-     ```bash
-     chmod 755 bash.sh
-     chmod 755 start_jupyter.sh
+ ```bash
+ chmod 755 bash.sh
+ chmod 755 start_jupyter.sh
+ ```
      
  
   2. Add the CONCH directory and create a conda environment with all the necessary requirements:
