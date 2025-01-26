@@ -25,6 +25,7 @@ conda activate conch
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install --upgrade pip
 pip install -e .
+pip install matplotlib
 pip install ipykernel
 python -m ipykernel install --user --name=conch --display-name "Python (conch)"
 ```
