@@ -22,12 +22,15 @@ cd CONCH
 ```bash
 conda create -n conch python=3.10 -y
 conda activate conch
+
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
 pip install --upgrade pip
 pip install -e .
+pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 --index-url https://download.pytorch.org/whl/cu117
 pip install matplotlib
 pip install ipykernel
-python -m ipykernel install --user --name=conch --display-name "Python (conch)"
+python -m ipykernel install --user --name=conch --display-name "Python (ai4bio)"
 ```
 
 
