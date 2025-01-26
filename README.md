@@ -32,5 +32,6 @@ python -m ipykernel install --user --name=conch --display-name "Python (conch)"
  3. To start the Unimore GPU with a Jupyter notebook:
      
      -execute *./start_jupyter.sh* and copy the URL link.
+    
      -on the notebook press *select kernel* and select an existing jupyter server, past the link and choose as kernel: *Python (conch)*. 
 
