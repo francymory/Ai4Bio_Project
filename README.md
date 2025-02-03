@@ -37,5 +37,8 @@ pip install 'numpy<2'
      
      -execute *./start_jupyter.sh* and copy the URL link.
     
-     -on the notebook press *select kernel* and select an existing jupyter server, past the link and choose as kernel: *Python (Ai4bio)*. 
+     -on the notebook press *select kernel* and select an existing jupyter server, past the link and choose as kernel: *Python (Ai4bio)*.
+
+#NOTA:
+Il progetto non è stato terminato, l'unico notebook che contiene una parte corretta è conch_explainability.py, gli altri due usano un dataset sbagliato
 
