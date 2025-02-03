@@ -39,6 +39,6 @@ pip install 'numpy<2'
     
      -on the notebook press *select kernel* and select an existing jupyter server, past the link and choose as kernel: *Python (Ai4bio)*.
 
-#NOTA:
-Il progetto non è stato terminato, l'unico notebook che contiene una parte corretta è conch_explainability.py, gli altri due usano un dataset sbagliato
+# NOTA:
+Il progetto non è stato terminato, l'unico notebook che contiene una parte corretta è conch_explained.py, gli altri due usano un dataset sbagliato
 
