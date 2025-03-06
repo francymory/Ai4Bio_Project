@@ -60,8 +60,8 @@ Per usare la GPU con un file .py hai due opzioni:
             "python": "/homes/fmorandi/.conda/envs/bytetrack/bin/python"
         }
 ```
+poi fai partire il debug.
 
-4. 
 # NOTA:
 Il progetto non è stato terminato, l'unico notebook che contiene una parte corretta è conch_explained.py, gli altri due usano un dataset sbagliato
 
