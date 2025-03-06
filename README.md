@@ -39,6 +39,29 @@ pip install 'numpy<2'
     
      -on the notebook press *select kernel* and select an existing jupyter server, past the link and choose as kernel: *Python (Ai4bio)*.
 
+
+# NOTA:
+Per usare la GPU con un file .py hai due opzioni:
+1. Linea di comando: srun -Q --immediate=10 --partition=all_serial --gres=gpu:1 --account=ai4bio2024 --time 120:00 python file.py
+2. Con il DEBUGGER:
+   Nel file launch.json in .vscode inserisci il file e inserisci anche il python che usi (es specifico ambiente conda con tutti i pacchetti installati)
+   
+```
+   {
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/homes/fmorandi/stage_bytetrack/file.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "python": "/homes/fmorandi/.conda/envs/bytetrack/bin/python"
+        }
+```
+
+4. 
 # NOTA:
 Il progetto non è stato terminato, l'unico notebook che contiene una parte corretta è conch_explained.py, gli altri due usano un dataset sbagliato
 
